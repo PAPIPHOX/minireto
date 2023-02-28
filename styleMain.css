@@ -1,0 +1,291 @@
+#header h1{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 850;
+    font-size: 300%;
+    color: rgb(155, 173, 231);
+    letter-spacing: -0.06cm;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: -1%;
+    margin-bottom: -1px;
+}
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.head_buttons > button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2;
+  margin-top:  0%;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  right: 18%;
+  margin-left: -3px;
+}
+
+#header{
+    background-color: rgb(48, 90, 157);
+    padding: 3px;
+    text-align: right;
+}
+
+#leftside{
+  border-width: -1px;
+  padding: 1px;
+  margin-top: 5px;
+  height: 500px;
+  width: 200px;
+  float: left;
+}
+
+#rightside {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(48, 90, 157);
+  float: right;
+  height: 650px;
+  width: 900px;
+  margin-top: 5px;
+  position: relative;
+  padding: 0%;
+  display: flex;
+  margin-right: 120px;
+}
+
+#searchbox form {
+  border-style: dashed;
+  border-radius: 1px;
+  margin-top: 0%;
+  text-align: center;
+  line-height: 40px;
+  border-color: #89a1cf;
+}
+
+label[for="search"]{
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #89a1cf;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 2%;
+
+}
+
+#botonesizq {
+  border-style: dashed;
+  margin-top: 5px;
+  border-width: 2px;
+  border-color: #89a1cf;
+}
+
+#botonesizq button {
+  background-color: transparent;
+  border: none;
+  color: rgb(118, 193, 246);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 2;
+  margin-top:  0%;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  right: 18%;
+  margin-left: -3px;
+}
+
+#rheader {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 30px;
+  background-color: rgb(48, 90, 157);
+  z-index: 1;
+}
+
+#rheader p {
+  margin-top: 0.5%;
+  color: #fff;
+}
+
+#container {
+  float: center;
+  transform: translate(-50%, -50%);
+  height: 900px;
+  width: 900px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 0%;
+  display: flex;
+  margin-top: 160px;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuadro {
+  width: 350px;
+  height: 150px;
+  margin: 5px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+  color: #ffffff;
+}
+
+#cheader {
+  background-color: rgb(48, 90, 157);
+  height: 20px;
+}
+
+.photo-profile {
+  width: 180PX;
+  height: 120px;
+  overflow: hidden;
+  float: right ;  
+  margin-right: 25%;
+  margin-top: 1%;
+}
+
+.photo-profile img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.cuadro1 {
+  width: 350px;
+  height: 40px;
+  margin: 5px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+}
+
+.border > button {
+  background-color: transparent;
+  border: none;
+  color: #89a1cf;
+  cursor: pointer;
+}
+
+.border2 >button {
+  background-color: transparent;
+  border: none;
+  color: #89a1cf;
+  cursor: pointer;
+}
+
+.cuadro2 {
+  width: 350px;
+  height: 50px;
+  margin: 5px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+  color: #ffffff;
+}
+
+#c2header {
+  background-color: rgb(48, 90, 157);
+  height: 20px;
+}
+
+#c2header p {
+  color: black;
+  line-height: 0%;
+}
+#c2header button {
+  background-color: transparent;
+  border: none;
+  color: #89a1cf;
+  cursor: pointer;
+  line-height: 0%;
+}
+
+.cuadro3 {
+  width: 350px;
+  height: 50px;
+  margin: 5px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+  color: #ffffff;
+}
+
+#c3header {
+  background-color: rgb(48, 90, 157);
+  height: 20px;
+}
+
+#c3header p {
+  color: black;
+  line-height: 0%;
+}
+
+#cuadro4 {
+  width: 350px;
+  height: 60px;
+  margin: 5px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+  color: #ffffff;
+  position: relative;
+}
+
+#c4header {
+  background-color: rgb(48, 90, 157);
+  height: 20px;
+}
+
+#cuadro4  button {
+  background-color: transparent;
+  border: none;
+  color: #89a1cf;
+  cursor: pointer;
+  line-height: 0%; 
+}
+
+.cuadro6 {
+  width: 400px;
+  height: 600px;
+  margin: 5px;
+  margin-right: 900px;
+  margin-left: -50px;
+  border-style: solid;
+  border-color: rgb(48, 90, 157);
+  border-width: 2px;
+  color: #000000;
+  position: relative;
+  line-height: 9px;
+  letter-spacing: normal;
+}
+
+#c6header {
+  background-color: rgb(48, 90, 157);
+  height: 20px;
+  color: #fff;
+  line-height: 90%;
+}
